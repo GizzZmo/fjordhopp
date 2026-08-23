@@ -1,0 +1,13 @@
+{
+  "name": "fjord",
+  "mode": "side_scroll_mode",
+  "engine_target": "raw_canvas",
+  "stage_canvas": "1792x1008",
+  "layers": [
+    { "id": "sky", "file": "fjord-sky.jpg", "parallax": 0 },
+    { "id": "far", "file": "fjord-far-bg.jpg", "parallax": 0.12 },
+    { "id": "mid", "file": "fjord-mid-bg.jpg", "parallax": 0.28 },
+    { "id": "near", "file": "fjord-near-bg.jpg", "parallax": 0.55 }
+  ],
+  "note": "Playable geometry lives in src/game/levels.ts. Stage reference is design-only."
+}
